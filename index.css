@@ -1,0 +1,407 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(75, 72, 72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: #666565;
+    border-radius: 50%;
+    border: 15px solid #dde;
+    position: relative;
+    overflow: hidden;
+    transition: all 10s ease;
+  
+}
+
+.container div{
+    height: 50%;
+    width: 200px;
+    position: absolute;
+    clip-path: polygon(30% 0,50% 100%, 0 0);
+    transform: translate(-50%);
+    transform-origin: bottom;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-size: bold;
+    font-family: sans-serif;
+    color: #1b1b1b;
+    left: 135px;
+}
+.container div p{
+
+    transform: rotate(70deg);
+    padding-bottom:25px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Thirty {
+    background-color: #c00fdf3c;
+    left: 50%;
+    
+}
+.container .one{
+    background-color: #985555;
+    transform: rotate(12deg);
+    
+    }
+ 
+
+.container .two {
+    background-color: #11edcc;
+    transform: rotate(24deg);
+}
+.container div.two span{
+
+    transform: rotate(70deg);
+    padding-bottom:0px;
+    padding-right: 0px;
+    color: #070707;
+    
+}
+.container  .three  {
+    background-color: #b216a5;
+    transform: rotate(36deg);
+}
+.container div.three p{
+
+    transform: rotate(70deg);
+    padding-bottom:50px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .four  {
+    background-color: #0e4875;
+    transform: rotate(48deg);
+}
+.container div.four p{
+
+    transform: rotate(70deg);
+    padding-bottom:70px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+
+
+.container .five  {
+    background-color: #a7c5dc;
+    transform: rotate(60deg);
+}
+.container div.five p{
+
+    transform: rotate(70deg);
+    padding-bottom:50px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .six  {
+    background-color: #0ad454;
+    transform: rotate(72deg);
+}
+.container div.six p{
+
+    transform: rotate(70deg);
+    padding-bottom:70px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .seven  {
+    background-color: #bd4200;
+    transform: rotate(84deg);
+}
+.container div.seven p{
+
+    transform: rotate(70deg);
+    padding-bottom:40px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .eight  {
+    background-color: #fa4a0a;
+    transform: rotate(96deg);
+}
+.container div.eight p{
+
+    transform: rotate(70deg);
+    padding-bottom:60px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .nine  {
+    background-color: #91d804;
+    transform: rotate(108deg);
+}
+.container div.nine p{
+
+    transform: rotate(70deg);
+    padding-bottom:70px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .ten  {
+    background-color: #53b2ed;
+    transform: rotate(120deg);
+}
+.container div.ten p{
+
+    transform: rotate(72deg);
+    padding-bottom:30px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Eleven  {
+    background-color: #6d276a;
+    transform: rotate(132deg);
+}
+.container div.Eleven p{
+
+    transform: rotate(73deg);
+    padding-bottom:40px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Twelve  {
+    background-color: #a85238;
+    transform: rotate(144deg);
+}
+.container div.Twelve p{
+
+    transform: rotate(72deg);
+    padding-bottom:20px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Thirteen  {
+    background-color: #395e6d;
+    transform: rotate(156deg);
+}
+.container div.Thirteen p{
+
+    transform: rotate(74deg);
+    padding-bottom:15px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Fourteen  {
+    background-color: #d0eb07;
+    transform: rotate(168deg);
+}
+.container .Fifteen  {
+    background-color: #4d5284;
+    transform: rotate(180deg);
+}
+.container div.Fifteen p{
+
+    transform: rotate(70deg);
+    padding-bottom:40px;
+    padding-right: 0px;
+    color: #111010;
+    
+}
+.container .Sixteen  {
+    background-color: #559556;
+    transform: rotate(192deg);
+}
+.container div.Sixteen p{
+
+    transform: rotate(70deg);
+    padding-bottom:60px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Seventeen  {
+    background-color: #8b3604;
+    transform: rotate(204deg);
+}
+.container div.Seventeen p{
+
+    transform: rotate(70deg);
+    padding-bottom:40px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Eighteen {
+    background-color: #f0f055;
+    transform: rotate(216deg);
+}
+.container div.Eighteen p{
+
+    transform: rotate(70deg);
+    padding-bottom:70px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Nineteen {
+    background-color: #da5a5a;
+    transform: rotate(228deg);
+}
+.container div.Nineteen p{
+
+    transform: rotate(74deg);
+    padding-bottom:20px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Twenty {
+    background-color: #6464f4;
+    transform: rotate(240deg);
+}
+.container div.Twenty p{
+
+    transform: rotate(72deg);
+    padding-bottom:0px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Twentyone {
+    background-color: #796302a7;
+    transform: rotate(252deg);
+}
+.container div.Twentyone p{
+
+    transform: rotate(70deg);
+    padding-bottom:70px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Twentytwo {
+    background-color: #05f6faa7;
+    transform: rotate(264deg);
+}
+.container .Twentythree {
+    background-color: #2d5a04a7;
+    transform: rotate(276deg);
+}
+.container div.Twentythree p{
+
+    transform: rotate(73deg);
+    padding-bottom:40px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Twentyfour {
+    background-color: #ff07c9a7;
+    transform: rotate(288deg);
+}
+.container div.Twentyfour p{
+
+    transform: rotate(73deg);
+    padding-bottom:55px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Twentyfive {
+    background-color: #2205dda7;
+    transform: rotate(300deg);
+}
+.container div.Twentyfive p{
+
+    transform: rotate(73deg);
+    padding-bottom:45px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Twentysix {
+    background-color: #770202a7;
+    transform: rotate(312deg);
+}
+.container .Twentyseven {
+    background-color: #939592a7;
+    transform: rotate(324deg);
+}
+.container div.Twentyseven p{
+
+    transform: rotate(70deg);
+    padding-bottom:55px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+.container .Twentyeight {
+    background-color: #46bc0ba7;
+    transform: rotate(336deg);
+}
+.container .twentynine {
+    background-color: #f21e1ea7;
+    transform: rotate(348deg);
+}
+.container div.Twentyeight p{
+
+    transform: rotate(70deg);
+    padding-bottom:40px;
+    padding-right: 0px;
+    color: #0b0b0b;
+    
+}
+
+
+
+.arrow{
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform:translateX(-50%);
+    color: #1a1919;
+    z-index: 33;
+}
+.arrow::before{
+    content: '\1f817';
+    font-size: 50px;
+}
+
+#spin{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50% );
+    z-index: 10;
+    background-color: #0ad454;
+    text-transform: uppercase;
+    border: 8px solid #fff;
+    font-size: 20px;
+    font-weight: bold;
+    color: #f8f4f4;
+    width: 80px;
+    height: 80px;
+    font-family: sans-serif;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+
